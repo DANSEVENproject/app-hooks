@@ -1,12 +1,12 @@
 import {Fragment} from 'react'
-import { Navbar } from './components/Navbar';
-import {Home} from './pages/Home'
-import {About} from './pages/About'
-import {Profile} from './pages/Profile'
+import { Navbar } from '@components/Navbar';
+import {Home} from '@pages/Home'
+import {About} from '@pages/About'
+import {Profile} from '@pages/Profile'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import { Alert } from './components/Alert'
-import { AlertState } from './context/alert/alertState';
-import { GithubState } from './context/github/githubState';
+import { Alert } from '@components/Alert'
+import { AlertState } from '@context/alert/alertState';
+import { GithubState } from '@context/github/githubState';
 
 function App() {
   return (
