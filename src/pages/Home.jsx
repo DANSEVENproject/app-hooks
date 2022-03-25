@@ -1,7 +1,7 @@
 import { Fragment, useContext } from 'react';
-import { Card } from '@components/Card';
-import {Search} from '@components/Search'
-import { GithubContext } from '@context/github/githubContext';
+import { Card } from 'components/Card';
+import {Search} from 'components/Search'
+import { GithubContext } from 'context/github/githubContext';
 
 export const Home = () => {
     const {loading, users} = useContext(GithubContext)
