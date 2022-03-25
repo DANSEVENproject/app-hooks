@@ -1,0 +1,2 @@
+export const REACT_APP_CLIENT_ID = '20a4b400d7e17efc45ac'
+export const REACT_APP_CLIENT_SECRET = '351b7b62dbb188afa208d29196af8066375e63c9'
